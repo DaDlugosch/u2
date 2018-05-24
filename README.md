@@ -1,11 +1,11 @@
-# [Sage](https://roots.io/sage/)
+# [U2](https://u2band.tk/)
 [![Packagist](https://img.shields.io/packagist/vpre/roots/sage.svg?style=flat-square)](https://packagist.org/packages/roots/sage)
 [![devDependency Status](https://img.shields.io/david/dev/roots/sage.svg?style=flat-square)](https://david-dm.org/roots/sage#info=devDependencies)
 [![Build Status](https://img.shields.io/travis/roots/sage.svg?style=flat-square)](https://travis-ci.org/roots/sage)
 
-Sage is a WordPress starter theme with a modern development workflow.
+U2 je WordPress téma vytvorená kvôli súťaži SSOSTa IT CHALLENGE 2018. Je postavená na Bedrock WordPress boilerplate spolu so Sage WordPress Starter Theme v9. 
 
-## Features
+## Features of Sage 9
 
 * Sass for stylesheets
 * Modern JavaScript
