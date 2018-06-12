@@ -2,7 +2,7 @@
     $heading = get_field('previous_concerts');
 @endphp
 
-<section class="previous-concerts">
+<section class="previous-concerts" id="{!! get_field('videos_id', 'option') !!}">
     <h2>{{ $heading }}</h2>
     <div class="concerts">
         @if(have_rows('youtube_videos'))

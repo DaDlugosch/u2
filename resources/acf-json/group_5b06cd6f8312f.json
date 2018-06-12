@@ -81,6 +81,187 @@
             "delay": 0
         },
         {
+            "key": "field_5b1fd5a8df5fb",
+            "label": "Tour",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5b1fd5b6df5fc",
+            "label": "Heading",
+            "name": "tour_heading",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Tour Info",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5b1fd5dfdf5fd",
+            "label": "Quote",
+            "name": "tour_quote",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_5b1fd62fdf5fe",
+            "label": "Tickets",
+            "name": "tickets",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "row",
+            "button_label": "Add ticket",
+            "sub_fields": [
+                {
+                    "key": "field_5b1fd649df5ff",
+                    "label": "Date",
+                    "name": "ticket_date",
+                    "type": "date_picker",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "display_format": "d.m.Y",
+                    "return_format": "d F Y",
+                    "first_day": 1
+                },
+                {
+                    "key": "field_5b1fd6b4df600",
+                    "label": "Location",
+                    "name": "ticket_location",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5b1fe7b788ed9",
+                    "label": "Ticket link",
+                    "name": "ticket_link",
+                    "type": "url",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5b1ff7333e63f",
+            "label": "Instagram photos",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5b1ff7443e640",
+            "label": "Heading",
+            "name": "photos_heading",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "U2’s LOOK",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5b1ff7653e641",
+            "label": "Instagram IFRAME",
+            "name": "instagram_iframe",
+            "type": "textarea",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "<!-- LightWidget WIDGET --><script src=\"https:\/\/cdn.lightwidget.com\/widgets\/lightwidget.js\"><\/script><iframe src=\"\/\/lightwidget.com\/widgets\/b17333234c935d9a84e5717864254915.html\" scrolling=\"no\" allowtransparency=\"true\" class=\"lightwidget-widget\" style=\"width:100%;border:0;overflow:hidden;\"><\/iframe>",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
             "key": "field_5b1fade559bed",
             "label": "Previous concerts",
             "name": "",
@@ -98,7 +279,7 @@
         },
         {
             "key": "field_5b1fadf759bee",
-            "label": "Previous concerts",
+            "label": "Heading",
             "name": "previous_concerts",
             "type": "text",
             "instructions": "",
@@ -174,5 +355,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1528803031
+    "modified": 1528821654
 }
