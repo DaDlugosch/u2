@@ -130,6 +130,89 @@
             },
             "placement": "top",
             "endpoint": 0
+        },
+        {
+            "key": "field_5b20063f11857",
+            "label": "Facebook link",
+            "name": "facebook_link",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "https:\/\/www.facebook.com\/u2",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5b20065411858",
+            "label": "Twitter link",
+            "name": "twitter_link",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "https:\/\/twitter.com\/u2",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5b201fb711859",
+            "label": "Instagram link",
+            "name": "instagram_link",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "http:\/\/instagram.com\/u2",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5b201fc71185a",
+            "label": "YouTube link",
+            "name": "youtube_link",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "http:\/\/www.youtube.com\/u2",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5b201fdc1185b",
+            "label": "Copyright",
+            "name": "copyright",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Copyright 2018 U2. Powered by Zuzka's team",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
         }
     ],
     "location": [
@@ -149,5 +232,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1528812851
+    "modified": 1528832026
 }
