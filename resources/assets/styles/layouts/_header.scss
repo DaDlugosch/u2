@@ -1,7 +1,60 @@
-.banner .nav li {
-  @extend .nav-item;
+header {
+  padding: 2rem 0;
 }
 
-.banner .nav a {
-  @extend .nav-link;
+img {
+  width: 15rem;
+
+  @include media-breakpoint-down(sm) {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+}
+
+.nav {
+  @include media-breakpoint-down(sm) {
+    display: block;
+  }
+}
+
+.nav-primary {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: $font-primary;
+  text-transform: uppercase;
+  font-size: 20px;
+
+  li {
+    padding: 0 1rem;
+
+    &:last-of-type {
+      padding-right: 0;
+    }
+
+    @include media-breakpoint-down(sm) {
+      display: block;
+      margin: 0 auto;
+      padding: 0;
+    }
+  }
+
+  a {
+    color: #949494;
+
+    &:hover {
+      color: $brand-primary;
+      text-decoration: none;
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    display: block;
+    text-align: center;
+  }
+
+  &.col-md-12 {
+    justify-content: center;
+  }
 }

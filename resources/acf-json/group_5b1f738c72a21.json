@@ -1,9 +1,9 @@
 {
-    "key": "group_5b06cd6f8312f",
-    "title": "Homepage",
+    "key": "group_5b1f738c72a21",
+    "title": "Theme settings",
     "fields": [
         {
-            "key": "field_5b1f8e1c489e5",
+            "key": "field_5b1f7397a3e19",
             "label": "Header",
             "name": "",
             "type": "tab",
@@ -19,9 +19,9 @@
             "endpoint": 0
         },
         {
-            "key": "field_5b1f8e25489e6",
-            "label": "Header image",
-            "name": "header_image",
+            "key": "field_5b1f73c3a3e1b",
+            "label": "Logo",
+            "name": "logo",
             "type": "image",
             "instructions": "",
             "required": 0,
@@ -41,14 +41,30 @@
             "max_height": "",
             "max_size": "",
             "mime_types": ""
+        },
+        {
+            "key": "field_5b1f73b9a3e1a",
+            "label": "Footer",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
         }
     ],
     "location": [
         [
             {
-                "param": "page_type",
+                "param": "options_page",
                 "operator": "==",
-                "value": "front_page"
+                "value": "theme-settings"
             }
         ]
     ],
@@ -57,12 +73,8 @@
     "style": "default",
     "label_placement": "top",
     "instruction_placement": "label",
-    "hide_on_screen": [
-        "the_content",
-        "featured_image",
-        "categories"
-    ],
+    "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1528794727
+    "modified": 1528794646
 }

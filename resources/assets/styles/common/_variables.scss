@@ -1,6 +1,19 @@
 /** Import Bootstrap functions */
 @import "~bootstrap/scss/functions";
 
-$theme-colors: (
-  primary: #525ddc
-);
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('../fonts/SegoeUI.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Segoe UI Bold';
+  src: url('../fonts/SegoeUIBold.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+$brand-primary: #d90000;
+$segoeR: 'Segoe UI', sans-serif;
+$segoeB: 'Segoe UI Bold', sans-serif;
+$font-primary: 'Special Elite', cursive;
