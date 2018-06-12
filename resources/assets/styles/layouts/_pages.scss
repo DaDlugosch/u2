@@ -1,0 +1,63 @@
+.header {
+  img {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}
+
+.heading {
+  font-family: $font-primary;
+  font-size: 40px;
+  color: $brand-primary;
+
+  @include media-breakpoint-down(sm) {
+    text-align: center;
+  }
+}
+
+.countdown {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1rem;
+
+  @include media-breakpoint-down(sm) {
+    justify-content: center;
+  }
+}
+
+.darth-dashboard {
+  width: 100%;
+  height: 100%;
+}
+
+.darth-hours_dash {
+  clear: right;
+}
+
+/** End of header || BEGIN Previous Concerts **/
+
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-family: $font-primary;
+  color: $color-gray;
+  font-size: 35px;
+
+  @include media-breakpoint-down(md) {
+    text-align: center;
+  }
+}
+
+.concerts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  iframe {
+    margin-bottom: 1rem;
+  }
+
+  @include media-breakpoint-down(md) {
+    justify-content: center;
+  }
+}

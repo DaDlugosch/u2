@@ -4,9 +4,7 @@
 
 @extends('layouts.app')
 
-@include('partials.page-header')
 @section('content')
-  @while(have_posts()) @php the_post() @endphp
-    @include('partials.content-page')
-  @endwhile
+    @include('partials.page-header')
+    @include('partials.previous-concerts')
 @endsection
